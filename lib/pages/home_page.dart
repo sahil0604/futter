@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class homePage extends StatelessWidget {
+class HomePage extends StatelessWidget {
   final int days = 3000;
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class homePage extends StatelessWidget {
       ),
       body: Center(
           child: Container(
-        child: Text("Hey Love Tayaba URF (Rano) $days",
+        child: Text("kya bolte chinmay bhaiiiiii",
             style: TextStyle(
                 fontSize: 25, fontWeight: FontWeight.bold, color: Colors.red)),
       )),
