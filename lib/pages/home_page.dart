@@ -10,9 +10,9 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
           child: Container(
-        child: Text("kya bolte chinmay bhaiiiiii",
+        child: Text("Hey there Everyone",
             style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.red)),
+                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.cyan)),
       )),
       drawer: Drawer(),
     );
