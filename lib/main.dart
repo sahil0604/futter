@@ -15,11 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        primarySwatch: Colors.deepPurple,
         fontFamily: GoogleFonts.lato().fontFamily,
       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
-      initialRoute: '/login',
+      initialRoute: myRoutes.homeRoute,
+      debugShowCheckedModeBanner: false,
       routes: {
         "/": (context) => LoginPage(),
         myRoutes.homeRoute: (context) => HomePage(),
